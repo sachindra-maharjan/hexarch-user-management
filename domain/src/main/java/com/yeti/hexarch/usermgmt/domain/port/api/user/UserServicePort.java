@@ -5,8 +5,6 @@ import java.util.Optional;
 import com.yeti.hexarch.usermgmt.domain.user.UserDomainModel; 
 import com.yeti.hexarch.usermgmt.domain.role.RoleType;
 
-
-
 public interface UserServicePort {
 
     /*

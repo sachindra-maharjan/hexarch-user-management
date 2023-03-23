@@ -15,7 +15,7 @@ public class UserDomainModel {
     private String email;
     private String phone;
     private AddressDomainModel address;
-    private UserRoleDomainModel userRole;
+    private UserGroupDomainModel userGroup;
 
     public UserDomainModel(String userId) {
         this.userId = userId;
