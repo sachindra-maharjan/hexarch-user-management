@@ -30,4 +30,11 @@ public interface UserServicePort {
      */
     Optional<UserDomainModel> findUserById(String userId);
 
+    /*
+     * Deletes a user
+     * 
+     * @param userDomainModel a user to be deleted
+     */
+    void deleteUser(UserDomainModel userDomainModel);
+
 }
