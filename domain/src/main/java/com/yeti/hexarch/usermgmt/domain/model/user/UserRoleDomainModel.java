@@ -7,16 +7,16 @@ import lombok.Data;
 import lombok.Builder;
 import lombok.RequiredArgsConstructor;
 
-import com.yeti.hexarch.usermgmt.domain.role.RoleDomainModel;
+import com.yeti.hexarch.usermgmt.domain.role.RoleType;
 
 @Data
 @RequiredArgsConstructor
 public class UserRoleDomainModel {
 
     private String userId;
-    private List<RoleDomainModel> roles;
+    private List<RoleType> roles;
 
-    public void addRole(RoleDomainModel role) {
+    public void addRole(RoleType role) {
         if(roles == null) {
             roles = new ArrayList<>();
         }
