@@ -8,8 +8,18 @@
  * This project uses @Incubating APIs which are subject to change.
  */
 
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
 rootProject.name = "hexarch-user-management"
-include("app:rest")
-include("app:grpc")
-include("domain")
-include("adapter")
+
+include (
+    "app:rest",
+    "app:grpc",
+    "domain",
+    "adapter"
+)
+
