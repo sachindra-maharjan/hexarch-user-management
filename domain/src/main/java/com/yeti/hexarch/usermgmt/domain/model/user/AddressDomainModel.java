@@ -1,5 +1,8 @@
 package com.yeti.hexarch.usermgmt.domain.user;
 
+import lombok.Data;
+
+@Data
 public class AddressDomainModel {
 
     private String street;

@@ -14,7 +14,7 @@ buildscript {
 }
 
 plugins {
-    
+    id("io.freefair.lombok") version "8.0.1" apply false
 }
 
 allprojects {
@@ -34,6 +34,7 @@ subprojects {
 
     apply {
         // plugins
+        plugin("io.freefair.lombok")
     }
 }
 

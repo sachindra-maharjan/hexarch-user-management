@@ -1,7 +1,9 @@
 package com.yeti.hexarch.usermgmt.domain.user;
 
 import java.util.Date;
+import lombok.Data;
 
+@Data
 public class UserDomainModel {
 
     private Integer id;

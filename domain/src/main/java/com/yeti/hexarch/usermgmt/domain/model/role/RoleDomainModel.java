@@ -1,5 +1,8 @@
 package com.yeti.hexarch.usermgmt.domain.role;
 
+import lombok.Data;
+
+@Data
 public class RoleDomainModel {
 
     enum RoleType {
