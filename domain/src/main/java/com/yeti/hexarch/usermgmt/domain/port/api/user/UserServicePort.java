@@ -1,9 +1,8 @@
-package com.yeti.hexarch.usermgmt.port.api;
+package com.yeti.hexarch.usermgmt.domain.port.api;
 
 import java.util.Optional;
 
-import com.yeti.hexarch.usermgmt.domain.user.UserDomainModel; 
-import com.yeti.hexarch.usermgmt.domain.role.RoleType;
+import com.yeti.hexarch.usermgmt.domain.model.user.UserDomainModel; 
 
 public interface UserServicePort {
 
@@ -19,9 +18,9 @@ public interface UserServicePort {
      * Addes a new user Role
      * 
      * @param userDomainModel
-     * @param roleType
+     * @param groupName
      */
-    void addUserRole(UserDomainModel userDomainModel, RoleType roleType);
+    void addUserGroup(UserDomainModel userDomainModel, String groupName);
 
     /*
      * Finds a user by userId

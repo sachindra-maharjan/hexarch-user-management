@@ -1,4 +1,4 @@
-package com.yeti.hexarch.usermgmt.domain.product;
+package com.yeti.hexarch.usermgmt.domain.model.product;
 
 import java.util.Date;
 import lombok.Data;

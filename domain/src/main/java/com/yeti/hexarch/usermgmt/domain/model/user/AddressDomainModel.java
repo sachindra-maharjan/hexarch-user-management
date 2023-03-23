@@ -1,4 +1,4 @@
-package com.yeti.hexarch.usermgmt.domain.user;
+package com.yeti.hexarch.usermgmt.domain.model.user;
 
 import lombok.Data;
 import lombok.Builder;

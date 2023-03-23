@@ -1,4 +1,4 @@
-package com.yeti.hexarch.usermgmt.domain.user;
+package com.yeti.hexarch.usermgmt.domain.model.user;
 
 import java.util.Date;
 import lombok.Data;
@@ -16,6 +16,7 @@ public class UserDomainModel {
     private String phone;
     private AddressDomainModel address;
     private UserGroupDomainModel userGroup;
+    private byte[] profilePicture;
 
     public UserDomainModel(String userId) {
         this.userId = userId;
