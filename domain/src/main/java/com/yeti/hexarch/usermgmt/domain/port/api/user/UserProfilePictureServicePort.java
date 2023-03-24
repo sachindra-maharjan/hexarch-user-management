@@ -1,4 +1,4 @@
-package com.yeti.hexarch.usermgmt.domain.port.api;
+package com.yeti.hexarch.usermgmt.domain.port.api.user;
 
 import com.yeti.hexarch.usermgmt.domain.model.user.UserDomainModel; 
 
