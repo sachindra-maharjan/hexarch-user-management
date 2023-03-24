@@ -3,14 +3,14 @@ package com.yeti.hexarch.usermgmt.domain.model.user;
 import java.util.HashSet;
 import java.util.Set;
 
+import lombok.Builder;
 import lombok.Data;
-import lombok.RequiredArgsConstructor;
 
 import com.yeti.hexarch.usermgmt.domain.model.role.RoleTypeDomainModel;
 import com.yeti.hexarch.usermgmt.domain.model.product.ProductDomainModel;
 
 @Data
-@RequiredArgsConstructor
+@Builder
 public class UserGroupDomainModel {
 
     private String groupName;

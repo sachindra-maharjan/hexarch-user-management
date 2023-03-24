@@ -18,9 +18,6 @@ plugins {
 }
 
 allprojects {
-    group = "com.yeti.hexarch.usermgmt"
-    version = "0.0.1.SHAPSHOT"
-
     tasks.withType<JavaCompile> {
         sourceCompatibility = "1.8"
         targetCompatibility = "1.8"
@@ -32,10 +29,14 @@ subprojects {
         mavenCentral()
     }
 
+    group = "com.yeti.hexarch.usermgmt"
+    version = "0.0.1.SHAPSHOT"
+
     apply {
         // plugins
         plugin("io.freefair.lombok")
     }
+
 }
 
 
