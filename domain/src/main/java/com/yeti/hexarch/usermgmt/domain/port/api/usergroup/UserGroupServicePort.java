@@ -1,11 +1,10 @@
-package com.yeti.hexarch.usermgmt.domain.port.api;
+package com.yeti.hexarch.usermgmt.domain.port.api.usergroup;
 
-import com.yeti.hexarch.usermgmt.domain.model.user.UserGroupDomainModel;
-import com.yeti.hexarch.usermgmt.domain.model.role.RoleTypeDomainModel;
 import com.yeti.hexarch.usermgmt.domain.model.product.ProductDomainModel;
+import com.yeti.hexarch.usermgmt.domain.model.role.RoleTypeDomainModel;
+import com.yeti.hexarch.usermgmt.domain.model.user.UserGroupDomainModel;
 
 public interface UserGroupServicePort {
-
     /*
      * Creates a new user group
      * 

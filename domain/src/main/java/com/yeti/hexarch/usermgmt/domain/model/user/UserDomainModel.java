@@ -1,11 +1,12 @@
 package com.yeti.hexarch.usermgmt.domain.model.user;
 
 import java.util.Date;
+
+import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
+@Builder
 public class UserDomainModel {
 
     private String userId;
@@ -17,9 +18,5 @@ public class UserDomainModel {
     private AddressDomainModel address;
     private UserGroupDomainModel userGroup;
     private byte[] profilePicture;
-
-    public UserDomainModel(String userId) {
-        this.userId = userId;
-    }
 
 }
