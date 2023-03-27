@@ -1,0 +1,8 @@
+rootProject.name = "hexarch-user-management"
+
+include (
+    "app:rest",
+    "app:grpc",
+    "domain",
+    "adapter"
+)
