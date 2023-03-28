@@ -1,6 +1,7 @@
 package com.yeti.hexarch.usermgmt.domain.model.user;
 
 import java.util.HashSet;
+import java.util.Properties;
 import java.util.Set;
 
 import lombok.Builder;
@@ -24,11 +25,27 @@ public class UserGroupDomainModel {
         roleTypes.add(roleTypeDomainModel);
     }
 
+    public void addRoles(Set<RoleTypeDomainModel> roleTypeDomainModels){
+        if(roleTypes == null) {
+            roleTypes = roleTypeDomainModels;
+        } else {
+            roleTypes.addAll(roleTypeDomainModels);
+        }
+    }
+
     public void addProduct(ProductDomainModel productDomainModel) {
         if(products == null) {
             products = new HashSet<>();
         }
         products.add(productDomainModel);
+    }
+
+    public void addProducts(Set<ProductDomainModel> productDomainModels) {
+        if (products == null) {
+            products = productDomainModels;
+        } else {
+            products.addAll(productDomainModels);
+        }
     }
 
 }

@@ -4,5 +4,6 @@ ext.libs = [
 
 ext.libsTest = [
   'jupiterApi' : 'org.junit.jupiter:junit-jupiter-api:5.9.2',
-  'jupiterEngine' : 'org.junit.jupiter:junit-jupiter-engine:5.9.2'
+  'jupiterEngine' : 'org.junit.jupiter:junit-jupiter-engine:5.9.2',
+  'assertJ': 'org.assertj:assertj-core:3.24.2'
 ]
