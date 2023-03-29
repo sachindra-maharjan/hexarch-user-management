@@ -1,5 +1,6 @@
 ext.libs = [
-  'guava' : 'com.google.guava:guava:31.1-jre'
+  'guava' : 'com.google.guava:guava:31.1-jre',
+  'mapstruct': 'org.mapstruct:mapstruct:1.5.3.Final'
 ]
 
 ext.libsTest = [

@@ -42,6 +42,7 @@ subprojects {
 
     dependencies {
        implementation(libs.guava)
+       implementation(libs.mapstruct)
        testImplementation(libsTest.jupiterApi)
        testImplementation(libsTest.jupiterEngine)
        testImplementation(libsTest.assertJ)
